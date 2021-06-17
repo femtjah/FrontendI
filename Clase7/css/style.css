@@ -1,0 +1,37 @@
+
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+.colores {
+    background-color: #a19d9d;
+    color: #005677;   
+}
+
+
+.titulos{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+     }
+ 
+li {
+    font-size: 15px;
+  }
+
+main {
+    padding: 100px 255px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color:#005677;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    
+
+}
