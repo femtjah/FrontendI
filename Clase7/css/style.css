@@ -4,6 +4,10 @@ header{
     text-align: center;
 }
 
+span{
+    font-weight: bold;
+}
+
 .colores {
     background-color: #a19d9d;
     color: #005677;   
