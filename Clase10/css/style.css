@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.des{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.He{
+    background-color: #00669F;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.fondo-batman{
+    background-image:url(../img/FondoBatman.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 529px;
+    position: relative;
+    margin: 85px;
+}
+
+.fondo-harley{
+    background-image: url(../img/FondoHarleyQuinn.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 529px;
+    position: relative;
+    margin: 85px;
+}
+
+.batman{
+    background-image: url(../img/Batman.png);
+    background-position:center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin:110px 85px 20px; 
+}
+.harley{
+    background-image: url(../img/HarleyQuinn.png);
+    background-position:center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin:110px 85px 20px;
+}
+
+.name{
+    text-align: center;
+}
+
+.boton{
+    background-position: center;
+    background-color: #00669F;
+    color: white;  
+    position:absolute;
+    padding: 10px;
+    margin: 20px 100px
+    
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
