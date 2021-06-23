@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .des{
@@ -16,22 +22,33 @@
     
 }
 
+.principal{
+    display:flex
+}
+
+.heart{
+    position:absolute;
+    margin: 10px;
+}
+
 .fondo-batman{
     background-image:url(../img/FondoBatman.png);
     background-repeat: no-repeat;
+    border-radius: 15px;
     width: 300px;
     height: 529px;
     position: relative;
-    margin: 85px;
+    margin: 120px 80px;
 }
 
 .fondo-harley{
     background-image: url(../img/FondoHarleyQuinn.png);
     background-repeat: no-repeat;
+    border-radius: 15px;
     width: 300px;
     height: 529px;
     position: relative;
-    margin: 85px;
+    margin: 120px 80px;
 }
 
 .batman{
