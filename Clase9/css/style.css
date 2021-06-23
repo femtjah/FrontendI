@@ -1,0 +1,173 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: #3c2313;
+    color:white
+}
+
+header{
+    background-color: #f0a83e;
+    color: white;
+    font-weight: 400;
+}
+
+section p{
+    color:#3c2313
+}
+
+.sales-offer{
+    background-color: black;
+    color: white;   
+    padding: 5px;
+}
+
+.LN{
+    background-size:cover;
+    width: 300px;
+    position:relative;
+    left: 40px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.PataN{
+    background-size:cover;
+    width: 20px;
+    position:relative;
+    left: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-links{
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    font-size: 13px;
+}
+
+.right{
+    position:absolute;
+    right: 10px;
+    
+}
+
+
+.welcome-message{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-color-font{
+    color: #3c2313
+}
+
+.title-inside-banner{
+    text-align: center;
+}
+
+.welcome{
+    background-color: white;
+    padding: 10px;
+   
+}
+
+.sale-item-offer{
+    padding-top: 24px;
+}
+
+.sale-item{
+    background-color: #F0A83E;
+    color: white;
+    padding: 10px;
+
+}
+.banner-section{
+    background-image: url(../img/PlatoComida.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+.pata{
+    position: relative;
+    left: 47%;    
+}
+
+.featured-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.featured-categories{
+    text-align: center;
+    color:#666666
+}
+
+.products-section{
+    background-color: #fbfaf6;
+}
+
+.product-name{
+    font-weight: 500;
+}
+
+.price{
+    color: #f0a83e;
+}
+
+.contact-up{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.contact{
+    background-color: #3C2313;
+    color:white;
+    padding: 10px;
+    font-size: 9px;
+}
+
+.reset{
+    background-color: #8A8787;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.send{
+    background-color: #F0A83E;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact-info-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-info-description{
+    color: #8a8787;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copyrights-container{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.copyrights-content{
+    margin-left: 5px;
+    margin-right: 5px;
+}
