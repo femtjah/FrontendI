@@ -31,6 +31,9 @@ body {
     margin: 10px;
 }
 
+.parrafo{
+    text-align: justify;
+}
 .fondo-batman{
     background-image:url(../img/FondoBatman.png);
     background-repeat: no-repeat;

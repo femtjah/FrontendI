@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 90px;
+    margin: 1.5%;
+}
+
+.lista{
+    display: flex;
+}
+
+.banner{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+}
+
+.caja{
+    width: 490px;
+    height: 350px;
+}
+
+h2{
+    color: #FC200C;
+    text-align: center;
+}
+
+span{
+    color:white;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+ol{
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    border-color: #E5E5E5;
+}
+
+.top5{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    top: 20%
+}
+
+footer{
+    background-color: #222222;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.E{
+    margin: 10px;
+}
