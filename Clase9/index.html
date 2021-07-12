@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Cat&Dot</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <p class="sales-offer"> <span>Grandes ofertas en comederos</span><span>Español</span><span>ARG$</span></p>
+        <div class="sales-offer"> 
+            <p>Grandes ofertas en comederos</p>
+            <div>
+                <span>Español</span>
+                <span>ARG$</span>
+            </div>           
+        </div>
+
         <div class="header-links">
             <img class="LN" src="img/LogoCat&Dog.JPG" alt="Logo">
-            <p class="right">
-                <img class="PataN" src="img/Pata_FN.JPG" alt="PataLogo"><span>Categorías</span>
-                <img class="PataN" src="img/Pata_FN.JPG" alt="PataLogo"><span>Pets</span>
-                <img class="PataN" src="img/Pata_FN.JPG" alt="PataLogo"><span>Nosotros</span>
-                <img class="PataN" src="img/Pata_FN.JPG" alt="PataLogo"><span>Contactanos</span>
-            </p>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fas fa-paw"></i> Categorias</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i> Pets</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i> Nosotros</a></li>
+                    <li><a href="#"><i class="fas fa-paw"></i> Contactenos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section class="banner-section">
             <p class="welcome-message main-color-font title-inside-banner"><span class="welcome">¡Es un placer tenerte aquí!</span></p>
             <p class="title-inside-banner sale-item-offer"><span >¡Comederos en descuento!</span></p>
-            <p class="title-inside-banner"><span class="sale-item">COMEDEROS</span></p>
+            <p class="title-inside-banner"><button class="sale-item">COMEDEROS</button></p>
         </section>
         <img class="pata" src="img/Pata.JPG" alt="LogoPata">
         <p class="featured-title main-color-font">Productos Destacados</p>
@@ -48,13 +58,13 @@
 
            
         </section>
-        <SEction>
+        <Section class="mainf">
             <p class="contact-up main-color-font">Contáctanos</p>
             <p class="title-inside-banner"><span class="contact">Nombre y Apellido</span></p>
             <p class="title-inside-banner"><span class="contact">Ingresa tu correo electrónico</span> </p>
             <p class="title-inside-banner"><span class="contact">Teléfono</span> </p>
-            <p class="title-inside-banner"class=""><span class="reset">Resetear</span><span class="send">Enviar</span></p>
-        </SEction>
+            <div class="buttonrs"><button class="reset">Resetear</button><button class="send">Enviar</button></div>
+        </Section>
     </main>
     <footer>
         <img src="img/gps.JPG" alt="LocationIcon">

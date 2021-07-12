@@ -1,54 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-footer{
-    background-color: #3c2313;
-    color:white
-}
 
-header{
-    background-color: #f0a83e;
-    color: white;
-    font-weight: 400;
-}
-
-section p{
+main section p{
     color:#3c2313
 }
 
 .sales-offer{
     background-color: black;
     color: white;   
-    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 90px 5px 40px;
+}
+
+.sales-offer div span{
+    margin: 10px;
+}
+
+.header-links{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px 22px 58px;
+}
+
+header div.header-links nav ul li{
+    list-style: none;
+}
+
+header div.header-links nav ul li a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+header div.header-links nav ul{
+    display: flex;
 }
 
 .LN{
     background-size:cover;
-    width: 300px;
-    position:relative;
-    left: 40px;
-    margin: 5px;
-    padding: 15px;
-}
-
-.PataN{
-    background-size:cover;
-    width: 20px;
-    position:relative;
-    left: 10px;
-    margin: 5px;
-    padding: 5px;
-}
-
-.header-links{
-    position: relative;
-    align-items: center;
-    display: flex;
-    height: 40px;
-    font-size: 13px;
+    width: 250px;
+    height: 30px;
 }
 
 .right{
@@ -60,15 +64,16 @@ section p{
 .welcome-message{
     font-weight: 400;
     font-size: 30px;
-    text-align: center;
 }
 
 .main-color-font{
     color: #3c2313
 }
 
-.title-inside-banner{
-    text-align: center;
+.title-inside-banner{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .welcome{
@@ -82,10 +87,13 @@ section p{
 }
 
 .sale-item{
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
     background-color: #F0A83E;
     color: white;
-    padding: 10px;
-
+    padding: 15px;
+    margin: 20px;
 }
 .banner-section{
     background-image: url(../img/PlatoComida.png);
@@ -111,44 +119,65 @@ section p{
 }
 
 .products-section{
-    background-color: #fbfaf6;
+    
     display: flex;
     justify-content: space-around;
 }
 
 .product-name{
+    padding: 0;
+    text-align: center;
+    background-color: #fbfaf6;
     font-weight: 500;
 }
 
 .price{
+    text-align: center;
+    background-color: #fbfaf6;
     color: #f0a83e;
 }
 
+.mainf{
+    margin: 5%;
+}
+
 .contact-up{
+    margin: 3px;
     text-align: center;
     font-weight: 700;
     font-size: 25px;
 }
 
 .contact{
+    border-radius: 20px;
+    padding: 15px ;
     background-color: #3C2313;
     color:white;
-    padding: 10px;
+    margin: 5px;
+    width: 340px;
+    height: 40px;
     font-size: 9px;
 }
 
+.buttonrs{
+    text-align: center; 
+}
 .reset{
+    border-radius: 20px;
     background-color: #8A8787;
     color:white;
-    padding: 5px;
+    width: 110px;
+    height: 34px;
     margin: 5px;
     font-size: 16px;
 }
 
 .send{
+    border-radius: 20px;
     background-color: #F0A83E;
     color:white;
-    padding: 5px;
+    width: 110px;
+    height: 34px;
     margin: 5px;
     font-size: 16px;
 }
@@ -174,4 +203,10 @@ section p{
 .copyrights-content{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+footer{
+    background-color: #3c2313;
+    color:white
+    
 }

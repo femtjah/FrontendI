@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100vw;
+}
+
+
+.des{
+    background-color: #D1891C;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.He{
+    background-color: #00669F;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+
+.menu-items{
+    background-color: black;
+    
+}
+
+.menu-items ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-items ul li{
+    margin: 10px 20px;
+}
+
+.menu-items ul li a{
+    text-decoration:none;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heart{
+    position:relative;
+    z-index: 10;
+    bottom: 185px;
+    left: -135px
+}
+
+.parrafo{
+    text-align: justify;
+    position: relative;
+    bottom:75px;
+}
+
+.ficha{
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    width: 24%;
+    height: 529px;
+    margin: 120px 80px 20px;
+}
+
+.fondo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    position: relative;
+}
+
+
+.heroe{
+    position: relative;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%; 
+    bottom:95px;
+    z-index: 5;
+}
+
+.name{
+    position: relative;
+    bottom:85px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.boton{
+    background-color: #00669F;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white; 
+    position: relative;
+    bottom:60px; 
+}
+
+.more{
+    background: #00669f;
+    position: fixed;
+    text-align: center;
+    border-radius: 50%;
+    bottom: 50%;
+    right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 82px;
+    height: 82px; 
+    padding-top: 18px;
+}
+
+.more a{
+    color: white;
+    text-decoration: none;    
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align:center;
+}
+
+h1{   
+    font-size: 72px;
+    margin: 15px;
+}
+
+.regis-login-add{
+    height: 79vh;
+    
+}
+
+.regis-login-add form select{
+    width: 620px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.regis-login-add form button{
+    width: 620px;
+    height: 40px;
+    margin: 10px;
+    background-color: #1CD1B0;
+    border-radius: 20px;
+}
+
+.regis-login-add form span button{
+    width: 300px;
+}
+
+.regis-login-add form span button.reset{
+    background-color: #888888;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 10px;
+    width: 620px;
+    height: 40px;
+    padding: 10px;
+}
+
+
