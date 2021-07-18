@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 400;
+    width: 100vw;
+}
+.fondo{
+    position:absolute;
+    z-index: -1;
+    right: ;
+}
+
+button{
+    border: none;
+    color: white;
+    background: #F3603B;
+    border-radius: 25px;
+    padding:0px 20px;
+    height: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    border: none;
+    color: rgb(31, 30, 30);
+    background: rgba(228, 107, 51, 0.151);
+    border-radius: 25px;
+    padding:0px 20px;
+    height: 40px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-menu{
+    display: none; 
+}
+
+header nav label{
+    display: none;
+
+}
+
+header nav label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+h1{
+    font-size: 48px;
+}
+header a{
+    color: #000;
+    text-decoration: none;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    padding: 20px;
+}
+
+h2 {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bring{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.bring-cont{
+    width: 439px;
+    margin: 10px;
+}
+
+.bring-cont p{
+    width: 350px;
+    margin: 10px 0px;
+}
+
+.bring-cont button{
+    margin: 10px 0px;
+}
+
+h2 img.logo{
+    position: relative;
+    right: 6.6px;
+}
+
+.what{
+    display: flex;
+    justify-content: space-around;
+}
+
+.whats{
+    width: 433px;
+}
+
+.track{
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+}
+
+.track button{
+    margin-right: 20px;
+}
+
+.track h3{
+    margin: 10px;
+}
+
+.track p{
+    margin: 10px 10px 30px;
+}
+
+.ali{
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ali article{
+    width: 403px;
+    margin: 20px;
+}
+
+.ali article img{
+    margin: 10px;
+}
+
+.ali article h3{
+    margin-bottom: 10px;
+}
+
+.ali article p{
+    margin-bottom: 40px;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 200px;
+}
+
+.finalM{
+    background-color:#F3613C;
+    height: 224px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.finalM P{
+    color: white;
+    font-size: 40PX;
+    width: 438PX;
+}
+
+.finalM button{
+    background-color: white;
+    color: #F3603B;
+}
+
+.finalM button:hover{
+    background-color: rgb(148, 146, 146);
+    color: #F3603B;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    background-color:#000;
+    color: white;
+    padding: 5px;
+}
+
+.footerp{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+
+.redes{
+    margin:0px 5px;
+}
+
+footer a{
+    color:white;
+    text-decoration:  none;
+}
+
+footer p{
+    margin-top: 50px;
+    color: #8C8C94;
+    font-size: 12px;
+    text-align: end;
+}
+
+.menuF{
+    display: flex;
+}
+
+footer form input{
+    width: 201px;
+    height: 44px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+
+
+@media (max-width: 480px){
+    header nav label{
+        display: block;
+    
+    }
+
+    header nav ul{
+        background-color:rgb(117, 72, 14);
+        flex-direction: column;
+        position: absolute;
+        display: none;
+    }
+    
+    header button{
+        display: none;
+    }
+
+    #btn-nenu:checked ~ header nav ul{
+        display: block;
+    }
+
+    .bring{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .what{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .ali{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .finalM{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        height: auto;
+        text-align: center;
+    }
+
+    .footerp{
+        flex-direction: column-reverse;
+    }
+
+    footer p{
+        margin:5px;
+        text-align: center;
+    }
+}
